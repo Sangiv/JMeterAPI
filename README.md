@@ -8,4 +8,4 @@ readable between them.
 Average thread count was taken to be 500 and peak thread count was 1000. Testing timescale was 90 seconds for each test.
 
 Majority of errors were caused by the duration assertion, especially for the Spike test were the load was so great over a small period of time requiring the web api to need more
-time to retrieve the request. Throuput was alread negativly affected for the same reasons an showed itself most clearly in the spike and stress tests. 
+time to retrieve the request. Throuput was aslo negativly affected for the same reasons and showed itself most clearly in the spike and stress tests. 
