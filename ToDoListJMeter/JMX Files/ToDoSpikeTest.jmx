@@ -14,12 +14,12 @@
     <hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-1680410885">
-            <stringProp name="49586">200</stringProp>
-            <stringProp name="1598">20</stringProp>
-            <stringProp name="50">2</stringProp>
+          <collectionProp name="1776332881">
+            <stringProp name="1507423">1000</stringProp>
+            <stringProp name="1785">81</stringProp>
+            <stringProp name="52">4</stringProp>
             <stringProp name="49">1</stringProp>
-            <stringProp name="50">2</stringProp>
+            <stringProp name="52">4</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -470,6 +470,10 @@
           </HTTPSamplerProxy>
           <hashTree/>
         </hashTree>
+        <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Duration Assertion" enabled="true">
+          <stringProp name="DurationAssertion.duration">12000</stringProp>
+        </DurationAssertion>
+        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
